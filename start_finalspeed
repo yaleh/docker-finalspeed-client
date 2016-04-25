@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ulimit -s 65535
+ulimit -n 65535
+cd /conf
+java -Xmx512M -XX:MaxGCPauseMillis=30 -jar /opt/finalspeed/client.jar 2>&1
+
