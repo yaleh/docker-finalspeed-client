@@ -28,6 +28,6 @@ Notice the listen_port, which will be refered as DOCKER_LISTEN_PORT in the follo
 ### Run the Docker Container
  
 ```bash
-docker run -d -p EXTERNAL_LISTEN_PORT:DOCKER_LISTEN_PORT/tcp -v FINALESPEED_CONF_DIR:/conf --name finalspeed yaleh/finalspeed-client
+docker run -d -p EXTERNAL_LISTEN_PORT:DOCKER_LISTEN_PORT/tcp -v FINALESPEED_CONF_DIR:/conf --name finalspeed yaleh/docker-finalspeed-client
 ```
 
